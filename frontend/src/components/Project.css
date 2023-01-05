@@ -1,0 +1,130 @@
+.main-project {
+  display: flex;
+  position: absolute;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  padding: 0px 35px;
+  box-sizing: border-box;
+}
+
+.project-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: fit-content;
+  min-width: 70%;
+  z-index: 1;
+}
+
+.project-1 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  overflow-x: hidden;
+  overflow-y: auto;
+  border-radius: 10px;
+  background-color: white;
+  height: 742px;
+  max-width: 100%;
+  scrollbar-width: none;
+}
+
+.header-title {
+  position: absolute;
+  top: 0px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.project-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  overflow-x: hidden;
+  overflow-y: auto;
+  border-radius: 10px;
+  background-color: white;
+  height: 742px;
+  width: 95%;
+}
+
+.project-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  overflow-x: hidden;
+  overflow-y: auto;
+  border-radius: 10px;
+  background-color: white;
+  height: 100%;
+  width: 85%;
+}
+
+.about-project {
+  border: 1px solid black;
+  display: flex;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  height: 80%;
+  width: 25%;
+}
+
+.right-side {
+  border: 1px solid black;
+  display: flex;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  height: 80%;
+  width: 25%;
+}
+
+.thumbnail {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  margin: 72px;
+  box-sizing: border-box;
+}
+
+.buttons {
+  width: 100%;
+}
+
+.routes {
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.route {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  white-space: nowrap;
+  box-sizing: border-box;
+}

@@ -45,7 +45,7 @@ li:nth-child(n) {
   padding: 6px 24px;
   width: 128px;
   box-sizing: border-box;
-  border: 1px solid rgba(0,0,0,0.2);
+  border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   transition-property: background-color transform;
   transition-duration: 0.2s;
@@ -54,7 +54,7 @@ li:nth-child(n) {
 li:nth-child(n):hover {
   cursor: pointer;
   transform: scale(1.15);
-  background-color: rgba(0,0,0,0.03);
+  background-color: rgba(0, 0, 0, 0.03);
 }
 
 .linked-in {
@@ -80,6 +80,14 @@ li:nth-child(n):hover {
 .back {
   position: absolute;
   z-index: 2;
+  border: 1px solid black;
+  padding: 12px 32px;
+  margin-top: 24px;
+  margin-left: 36px;
+}
+
+.back:hover {
+  cursor: pointer;
 }
 
 .main {
@@ -93,18 +101,6 @@ li:nth-child(n):hover {
   padding: 72px 0px;
 }
 
-.project-div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  z-index: 1;
-}
-
 .outer-border {
   display: flex;
   justify-content: center;
@@ -113,7 +109,11 @@ li:nth-child(n):hover {
   height: 260px;
   width: 260px;
   border-radius: 100%;
-  background-image: linear-gradient(to bottom, rgb(117, 188, 255) 5%,#ffffff00 100%);
+  background-image: linear-gradient(
+    to bottom,
+    rgb(117, 188, 255) 5%,
+    #ffffff00 100%
+  );
   z-index: 1;
 
   animation-name: spinningOuterBorder;
@@ -126,7 +126,7 @@ li:nth-child(n):hover {
 .profile-pic {
   border-radius: 128px;
   z-index: 1;
-  
+
   animation-name: spinningInnerBorder;
   animation-timing-function: linear;
   animation-duration: 1s;
