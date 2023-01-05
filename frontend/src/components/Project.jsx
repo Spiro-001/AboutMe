@@ -118,7 +118,23 @@ export const Project = () => {
           </Route>
           <Route exact path="/projects/zerovisualizer">
             <h1 className="header-title">Zero Visualizer</h1>
-            <div className="project-3"></div>
+            <div className="project-3">
+              <img
+                className="thumbnail"
+                src="https://github.com/Spiro-001/Zero-Visualizer/raw/main/images/screenshot4.png"
+                alt="vis"
+              />
+              <img
+                className="thumbnail"
+                src="https://github.com/Spiro-001/Zero-Visualizer/raw/main/images/screenshot1.png"
+                alt="vis"
+              />
+              <img
+                className="thumbnail"
+                src="https://github.com/Spiro-001/Zero-Visualizer/raw/main/images/screenshot3.png"
+                alt="vis"
+              />
+            </div>
           </Route>
         </div>
         <div className="right-side">

@@ -9,7 +9,7 @@ export const Contact = () => {
       <div
         className="back"
         onClick={() => {
-          history.push("/");
+          history.goBack();
         }}
       >
         Back

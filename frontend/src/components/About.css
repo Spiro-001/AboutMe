@@ -1,11 +1,24 @@
 .about-div {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-content: center;
   align-items: center;
   height: 100%;
   width: 100%;
   position: absolute;
   z-index: 1;
+  box-sizing: border-box;
+}
+
+.center-about {
+  border-radius: 10px;
+  background-color: black;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 500;
+  color: white;
+  padding: 24px;
+  height: fit-content;
+  width: 50%;
 }
