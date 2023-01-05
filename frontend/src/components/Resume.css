@@ -1,0 +1,19 @@
+.resume-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+}
+
+.cover-letter {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  height: 85%;
+  width: 40%;
+}

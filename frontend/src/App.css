@@ -39,19 +39,19 @@
   gap: 16px 24px;
 }
 
-li:nth-child(n) {
+.links li:nth-child(n) {
   display: flex;
   justify-content: center;
   padding: 6px 24px;
   width: 128px;
   box-sizing: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  /* border: 1px solid rgba(0, 0, 0, 0.2); */
   border-radius: 10px;
   transition-property: background-color transform;
   transition-duration: 0.2s;
 }
 
-li:nth-child(n):hover {
+.links li:nth-child(n):hover {
   cursor: pointer;
   transform: scale(1.15);
   background-color: rgba(0, 0, 0, 0.03);
@@ -132,6 +132,13 @@ li:nth-child(n):hover {
   animation-duration: 1s;
   animation-delay: 0s;
   animation-iteration-count: infinite;
+}
+
+.fullname {
+  color: black;
+  font-size: 40px;
+  font-weight: 400;
+  z-index: 1;
 }
 
 @keyframes blurIn {

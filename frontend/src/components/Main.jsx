@@ -13,6 +13,7 @@ export const Main = () => {
           alt="pfp"
         />
       </div>
+      <p className="fullname">Yong Kim</p>
       <ul className="links">
         <li
           id="1"
